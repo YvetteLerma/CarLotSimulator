@@ -6,6 +6,8 @@ namespace CarLotSimulator
         //Default constructor
         public Car()
         {
+            CarLot.numberOfCars++;
+            //ClassName.StaticMember
         }
 
         //Custom cunstructor
